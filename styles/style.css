@@ -20,7 +20,10 @@ button {
 
 a {
   text-decoration: none;
+}
 
+p {
+  font-size: 24px;
 }
 
 li {
@@ -62,4 +65,88 @@ header ul {
 
 header ul li {
   margin-top: 15px;
+}
+
+div.menu-scrool {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+div.button-scrool {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.menu-itens {
+  height: 200vh;
+  background: #FFF;
+  padding: 0 80px;
+}
+
+div.menu-itens h1 {
+  text-align: center;
+  padding-top: 60px;
+}
+
+div.menu-itens a {
+  color: black;
+}
+
+div.itens h2 {
+  padding-bottom: 20px;
+  color: #9F9F3D;
+}
+
+div.itens hr {
+  border: 1px solid #9F9F3D;
+  margin-bottom: 40px;
+}
+
+
+.hyper-itens, .hipster-itens, .hacker-itens, .hustler-itens {
+  padding-bottom: 60px;
+}
+
+
+div.stack-item {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+
+div.item {
+  border: 1px solid #9F9F3D;
+  border-radius: 5px;
+  width: 400px;
+  height: 180px;
+  padding: 20px;
+  display: flex;
+}
+
+.item-none {
+  border: none;
+  width: 400px;
+  height: 180px;
+  padding: 20px;
+  display: flex;
+}
+
+div.item-image {
+  padding-right: 20px;
+  border-right: 1px solid #9F9F3D;
+}
+
+div.description {
+  padding-left: 30px;
+}
+
+.drink {
+  color: #989898;
+  margin-top: 6px;
 }
