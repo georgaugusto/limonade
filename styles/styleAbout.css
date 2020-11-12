@@ -1,0 +1,224 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.font {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+
+  color: #666666;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 24px;
+}
+
+li input {
+  width: 297px;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  padding: 0 5%;
+  font-size: 20px;
+}
+
+li i {
+  display: block;
+  margin-left: -45px;
+}
+
+li img {
+  margin-right: 20px;
+}
+
+header  {
+  height: 100px;
+  background-color: #FFD83F;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header ul li {
+  margin-top: 15px;
+}
+
+.section-one {
+  /* height: 700px; */
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  justify-content: space-around;
+	margin: 0 auto;
+
+  background: #FFD83F;
+}
+
+.section-one img {
+  width: 300px;
+  height: 300px;
+
+  padding-top: 10%;
+  padding-bottom: 70px;
+}
+
+.normal-italic {
+  font-family: Ubuntu;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 160%;
+  
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  padding: 0 27% 10% 27%;
+  
+  color: #3D3D3D;
+}
+
+.section-two {
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  justify-content: space-around;
+	margin: 0 auto;
+
+  /* background: #FFD83F; */
+}
+
+.visible {
+  visibility: hidden;
+}
+
+.section-two {
+  font-family: Ubuntu;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  justify-content: space-around;
+	margin: 0 auto;
+
+  /* background: #FFD83F; */
+}
+
+.section-two h1 {
+  font-family: Ubuntu;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 160%;
+  /* identical to box height, or 77px */
+  
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  
+  color: #000000;
+}
+
+.section-two span {
+  font-family: Ubuntu;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+
+  color: #989898;
+}
+
+.quotation-marks {
+  font-family: Ubuntu;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 144px;
+  line-height: 160%;
+  /* or 230px */
+  
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  
+  color: #989898;
+}
+
+.right {
+  margin-right: -70%;
+}
+
+.left {
+  margin-left: -70%;
+}
+
+.section-three {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  
+  padding: 5% 0 0 5%;
+
+  background: #C1C145;
+}
+
+
+.section-three h1 {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 41px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.section-three img {
+  padding: 80px 0 80px 0;
+}
+
+.section-three p {
+  font-family: Ubuntu;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 160%;
+  /* or 38px */
+
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #FFFFFF;
+}
