@@ -25,6 +25,10 @@ a {
   color: #666666;
 }
 
+.paddingHeader {
+  padding-right: 40px;
+}
+
 li {
   list-style-type: none;
   display: flex;
@@ -41,6 +45,10 @@ li input {
   border-radius: 50px;
   padding: 0 5%;
   font-size: 20px;
+}
+
+.backgroundYellow {
+  background-color: #FFE373;
 }
 
 li i {
@@ -79,10 +87,10 @@ header ul li {
 }
 
 .section-one img {
-  width: 300px;
-  height: 300px;
+  /* width: 300px;
+  height: 300px; */
 
-  padding-top: 10%;
+  padding-top: 100px;
   padding-bottom: 70px;
 }
 
@@ -96,7 +104,7 @@ header ul li {
   text-align: center;
   letter-spacing: 0.04em;
 
-  padding: 0 27% 10% 27%;
+  padding: 0 27% 100px 27%;
   
   color: #3D3D3D;
 }
@@ -162,22 +170,25 @@ header ul li {
   font-style: italic;
   font-weight: 500;
   font-size: 144px;
-  line-height: 160%;
-  /* or 230px */
   
   text-align: center;
-  letter-spacing: 0.04em;
   text-transform: uppercase;
   
   color: #989898;
 }
 
 .right {
-  margin-right: -70%;
+  margin-right: -80%;
 }
 
 .left {
-  margin-left: -70%;
+  padding-top: 40px;
+  margin-left: -80%;
+  margin-bottom: -80px;
+}
+
+.section-two span {
+  padding-bottom: 100px;
 }
 
 .section-three {

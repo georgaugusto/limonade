@@ -9,11 +9,11 @@ let visibleElement = document.getElementById("visible")
 
 function doSomething(scroll_pos) {
   x = window.scrollY;
-  if (x > 1000 & x < 1400 ) {
+  if (x > 800 & x < 1400 ) {
     slideInLeft.classList.add("slide-in-left");
     slideInRight.classList.add("slide-in-right");
     expand.classList.add("tracking-in-expand");
-    
+
     visibleElement.classList.remove('visible')
   }
 }
